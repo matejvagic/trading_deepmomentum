@@ -14,8 +14,8 @@ def main(lookback_window_length: int):
     if not os.path.exists(CPD_QUANDL_OUTPUT_FOLDER(lookback_window_length)):
         os.mkdir(CPD_QUANDL_OUTPUT_FOLDER(lookback_window_length))
 
-    for i in range(0, len(QUANDL_TICKERS), 2):
-        new_tickers = QUANDL_TICKERS[i:i+2]
+    for i in range(0, len(QUANDL_TICKERS), 10):
+        new_tickers = QUANDL_TICKERS[i:i+10]
         processes=[]
     
         for ticker in new_tickers:
