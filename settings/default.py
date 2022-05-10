@@ -25,31 +25,31 @@ QUANDL_TICKERS = ['AAPL',
  'T',
 
  'NVDA',
- 'FB',
+
  'BAC',
  'CMCSA',
  'VZ',
 
- 'TWTR',
+ 
  'SWN',
  'MSFT',
  'SIRI',
 
  'XOM',
- 'TDOC',
+
  
 
 
- 'TSLA',
+ 
  'PFE',
  'WFC',
- 'ZNGA',
+
  'BMY',
  'PCG',
- 'KMI',
- 'ABBV',
 
- 'PYPL',
+ 
+
+
  'AAL',
  'WBD',
  'CLF',
@@ -58,7 +58,7 @@ QUANDL_TICKERS = ['AAPL',
  'CCL',
  
  'C',
- 'AMC',
+ 
 
  'CSCO',
  'KO',
@@ -69,7 +69,7 @@ QUANDL_TICKERS = ['AAPL',
  'TELL',
 
  
- 'AMCR',
+ 
  
  'FCX',
  'DIS',
@@ -98,21 +98,21 @@ QUANDL_TICKERS = ['AAPL',
  'AMZN',
  'DAL',
  
- 'BKR',
- 'VTRS',
+
+
  'WU',
  'APA',
 
  'NYCB',
 
  'BEN',
- 
- 'NCLH',
+
  'RF',
  'WBA',
  "SPY"
 
 ]
+
 
 ALL_QUANDL_CODES = ['AAPL',
 
@@ -122,31 +122,31 @@ ALL_QUANDL_CODES = ['AAPL',
  'T',
 
  'NVDA',
- 'FB',
+
  'BAC',
  'CMCSA',
  'VZ',
 
- 'TWTR',
+ 
  'SWN',
  'MSFT',
  'SIRI',
 
  'XOM',
- 'TDOC',
+
  
 
 
- 'TSLA',
+ 
  'PFE',
  'WFC',
- 'ZNGA',
+
  'BMY',
  'PCG',
- 'KMI',
- 'ABBV',
 
- 'PYPL',
+ 
+
+
  'AAL',
  'WBD',
  'CLF',
@@ -155,7 +155,7 @@ ALL_QUANDL_CODES = ['AAPL',
  'CCL',
  
  'C',
- 'AMC',
+ 
 
  'CSCO',
  'KO',
@@ -166,7 +166,7 @@ ALL_QUANDL_CODES = ['AAPL',
  'TELL',
 
  
- 'AMCR',
+ 
  
  'FCX',
  'DIS',
@@ -195,21 +195,21 @@ ALL_QUANDL_CODES = ['AAPL',
  'AMZN',
  'DAL',
  
- 'BKR',
- 'VTRS',
+
+
  'WU',
  'APA',
 
  'NYCB',
 
  'BEN',
- 
- 'NCLH',
+
  'RF',
  'WBA',
  "SPY"
 
 ]
+
 
 COMMODITIES_TICKERS = [
     "CC=F",

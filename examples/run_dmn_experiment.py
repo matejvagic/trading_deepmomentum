@@ -52,7 +52,7 @@ def main(
         changepoint_lbws = None
     elif experiment == "TFT-SHORT-CPD-21":
         architecture = "TFT"
-        lstm_time_steps = 63
+        lstm_time_steps = 126
         changepoint_lbws = [21]
     elif experiment == "TFT-SHORT-CPD-63":
         architecture = "TFT"
@@ -167,7 +167,7 @@ if __name__ == "__main__":
             metavar="e",
             type=int,
             nargs="?",
-            default=2022,
+            default=2023,
             help="Testing end year.",
         )
         parser.add_argument(
@@ -175,7 +175,7 @@ if __name__ == "__main__":
             metavar="w",
             type=int,
             nargs="?",
-            default=1,
+            default=7,
             help="Test window length in years.",
         )
         parser.add_argument(
