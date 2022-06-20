@@ -38,7 +38,7 @@ class SharpeLoss(tf.keras.losses.Loss):
         captured_returns = weights * y_true
         mean_returns = tf.reduce_mean(captured_returns)
         #return tf.math.reduce_std(captured_returns)
-        return -(
+        return (
             mean_returns / tf.math.reduce_std(captured_returns)
             # / tf.sqrt(
             #     tf.reduce_mean(tf.square(captured_returns))
