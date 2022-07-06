@@ -393,6 +393,7 @@ def run_single_window(
         return
 
     raw_data = pd.read_csv(features_file_path, index_col=0, parse_dates=True)
+    raw_data["Test"] = raw_data["cp_score_21"]
     raw_data["date"] = raw_data["date"].astype("datetime64[ns]")
 
     # TODO more/less than the one year test buffer

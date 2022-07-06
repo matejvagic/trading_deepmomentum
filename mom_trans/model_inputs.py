@@ -101,6 +101,13 @@ class ModelFeatures:
             ("macd_16_48", DataTypes.REAL_VALUED, InputTypes.KNOWN_INPUT),
             ("macd_32_96", DataTypes.REAL_VALUED, InputTypes.KNOWN_INPUT),
         ]
+        print(df.columns)
+        print(df.columns[25:])
+
+        for name in df.columns[25:]:
+            self._column_definition.append((name, DataTypes.REAL_VALUED, InputTypes.KNOWN_INPUT))
+        print(self._column_definition)
+        
         df = df.dropna()
         df = df[df["year"] >= start_boundary].copy()
         years = df["year"]
