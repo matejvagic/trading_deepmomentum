@@ -3,21 +3,21 @@
     "total_time_steps": 252,
     "early_stopping_patience": 100,
     "multiprocessing_workers": 32,
-    "num_epochs": 600,
+    "num_epochs": 300,
     "fill_blank_dates": false,
     "split_tickers_individually": true,
-    "random_search_iterations": 50,
+    "random_search_iterations": 10,
     "evaluate_diversified_val_sharpe": true,
     "train_valid_ratio": 0.9,
     "time_features": false,
     "force_output_sharpe_length": null,
-    "input_size": 13,
+    "input_size": 36,
     "output_size": 1,
     "category_counts": [
-        25
+        16
     ],
     "static_input_loc": [
-        12
+        35
     ],
     "known_regular_inputs": [
         0,
@@ -31,7 +31,30 @@
         8,
         9,
         10,
-        11
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
     ],
     "known_categorical_inputs": [
         0

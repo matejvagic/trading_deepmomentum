@@ -220,6 +220,7 @@ class TunerDiversifiedSharpe(kt.tuners.RandomSearch):
         self.oracle.update_trial(
             trial.trial_id, metrics=averaged_metrics, step=self._reported_step
         )
+        tf.keras.backend.clear_session()
 
 
 class DeepMomentumNetworkModel(ABC):
